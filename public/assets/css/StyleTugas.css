@@ -1,0 +1,10 @@
+/** @format */
+
+.input-tugas {
+  align-items: center;
+  width: 250px;
+}
+
+#success {
+  font-size: medium;
+}

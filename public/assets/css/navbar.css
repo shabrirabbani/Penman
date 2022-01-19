@@ -1,0 +1,38 @@
+.bg-custom {
+    background-image: linear-gradient(to left, #521454 0%, #6c14a6 51%);
+    border: 5px;
+    color: white;
+    padding: 8px 48px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .bg-custom:hover {
+    background-image: linear-gradient(to left, #b19cbe 0%, #b19cbe 51%);
+    color: white;
+  }
+
+.bg-active{
+    background-color: transparent !important;
+    transition: 0.3s;
+    color: #6b15b1 !important;
+}
+
+  .navbar{
+      width: 100%;
+  }
+
+  .link-navbar{
+    color: black;
+    transition: 0.3s;
+  }
+
+  .link-navbar:hover{
+    color: #6b15b1;
+  }
+
+  .bg-nav {
+    background-color: #6b15b1;
+  }

@@ -1,0 +1,103 @@
+/** @format */
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0;
+  margin: 0px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+header {
+  background-color: rgba(137, 98, 248, 1);
+}
+header ul {
+  float: right;
+}
+header ul li {
+  padding: 25px 20px;
+  display: inline-block;
+}
+header ul li:hover {
+  background-color: rgb(111, 80, 199);
+}
+.sign-up {
+  width: 300px;
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  outline: none;
+  border-radius: 25px;
+}
+.username-box {
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #999;
+  margin-left: 10px;
+  background-color: rgb(235, 235, 235);
+}
+.email-box {
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #999;
+  margin-left: 10px;
+  background-color: rgb(235, 235, 235);
+}
+.input-box {
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #999;
+  margin-left: 10px;
+  background-color: rgb(235, 235, 235);
+}
+.signup-btn {
+  background-color: rgba(137, 98, 248, 1);
+  color: white;
+  height: 30px;
+  width: 100px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 0.5px solid #999;
+}
+.signup-btn:hover {
+  background-color: indigo;
+}
+h1 {
+  color: midnightblue;
+}
+hr {
+  margin-top: 10px;
+  width: 80%;
+}
+.or {
+  background: #fff;
+  width: 30px;
+  margin: -19px auto 10px;
+  margin-bottom: 30px;
+}
+img {
+  width: 100px;
+  margin-top: 25px;
+}
+::placeholder {
+  color: #999;
+}
+.fa-eye {
+  margin-left: -30px;
+}
+#hide1 {
+  display: none;
+}

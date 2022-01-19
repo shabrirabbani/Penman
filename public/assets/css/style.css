@@ -1,0 +1,21 @@
+.warna-bg{
+	background: #b38bff;
+}
+
+.warna-bgf{
+	background: #8962f8;
+}
+
+.btnc{
+	background: #8962f8;
+}
+
+header {
+    background-color: #8962f8;
+    }
+
+.jumbotron-bg{
+	background-size: cover;
+	background: url(../img/bg.jpg);
+	background-size: 300px;
+}
